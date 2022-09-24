@@ -133,9 +133,9 @@ exports.Prisma.UserScalarFieldEnum = makeEnum({
 
 exports.Prisma.User_snsScalarFieldEnum = makeEnum({
   seq: 'seq',
+  user_id: 'user_id',
   sns_id: 'sns_id',
-  sns_type: 'sns_type',
-  user_id: 'user_id'
+  sns_type: 'sns_type'
 });
 exports.PROVIDER = makeEnum({
   KAKAO: 'KAKAO',
